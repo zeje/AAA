@@ -8,54 +8,56 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <link rel="shortcut icon" href="~/favicon.ico">
-
-    <title>AAA</title>
-
-    @Styles.Render("~/Bundles/vendor/css")
-    @Styles.Render("~/Bundles/css")
-
+    <!-- 避免IE使用兼容模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="description" content="3A集团3A平台">
+    <meta name="author" content="caizz">
+    <!-- 浏览器标签图片 -->
+    <link rel="shortct icon" href="~/lib/topjui/images/favicon.ico" />
+    <title>3A集团3A平台</title>
+    <!-- Global styles -->
+    <!-- TopJUI框架样式 -->
+    <link type="text/css" href="~/lib/topjui/css/topjui.core.min.css" rel="stylesheet">
+    <link type="text/css" href="~/lib/topjui/themes/default/topjui.blue.css" rel="stylesheet" id="dynamicTheme" />
+    <!-- FontAwesome字体图标 -->
+    <link type="text/css" href="~/lib/topjui/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     <!-- View specific styles -->
     @RenderSection("styles", required: false)
+    @*<script type="text/javascript">
+            //This is used to get the application's root path from javascript. It's useful if you're running application in a virtual directory under IIS.
+            var abp = abp || {}; abp.appPath = '@ApplicationPath';
+        </script>*@
 
-    <script type="text/javascript">
-        //This is used to get the application's root path from javascript. It's useful if you're running application in a virtual directory under IIS.
-        var abp = abp || {}; abp.appPath = '@ApplicationPath';
-    </script>
+    @*<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="@Url.Content("~/Scripts/others/html5shiv.js")"></script>
+            <script src="@Url.Content("~/Scripts/others/respond.min.js")"></script>
+        <![endif]-->
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-        <script src="@Url.Content("~/Scripts/others/html5shiv.js")"></script>
-        <script src="@Url.Content("~/Scripts/others/respond.min.js")"></script>
-    <![endif]-->
-
-    @Scripts.Render("~/Bundles/vendor/js/top")
-
+        @Scripts.Render("~/Bundles/vendor/js/top")*@
 </head>
 <body>
-    @Html.Partial("_TopBar")
 
-    <div class="container">
-        @RenderBody()
-    </div>
+    @RenderBody()
 
-    @Scripts.Render("~/Bundles/vendor/js/bottom")
-    @Scripts.Render("~/Bundles/js")
-
-    <script>
-        abp.localization.defaultSourceName = '@LocalizationSourceName';
-        moment.locale('@Thread.CurrentThread.CurrentUICulture.Name.ToLower()'); //Localizing momentjs
-    </script>
-
+    <!-- Global scripts -->
+    <!-- jQuery相关引用 -->
+    <script type="text/javascript" src="~/lib/topjui/plugins/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="~/lib/topjui/plugins/jquery/jquery.cookie.js"></script>
+    <!-- TopJUI框架配置 -->
+    <script src="~/js/views/home/topjui.config.js"></script>
+    <!-- TopJUI框架核心 -->
+    <script type="text/javascript" src="~/lib/topjui/js/topjui.core.min.js"></script>
+    <!-- TopJUI中文支持 -->
+    <script type="text/javascript" src="~/lib/topjui/js/locale/topjui.lang.zh_CN.js"></script>
+    @*<script>
+            abp.localization.defaultSourceName = '@LocalizationSourceName';
+            moment.locale('@Thread.CurrentThread.CurrentUICulture.Name.ToLower()'); //Localizing momentjs
+        </script>*@
     <!-- Dynamic scripts of ABP system (They are created on runtime and can not be bundled) -->
-    <script src="~/api/AbpServiceProxies/GetAll?v=@(Clock.Now.Ticks)"></script>
-    <script src="~/AbpScripts/GetScripts?v=@(Clock.Now.Ticks)" type="text/javascript"></script>
-
+    @*<script src="~/api/AbpServiceProxies/GetAll?v=@(Clock.Now.Ticks)"></script>
+        <script src="~/AbpScripts/GetScripts?v=@(Clock.Now.Ticks)" type="text/javascript"></script>*@
     <!-- View specific scripts -->
     @RenderSection("scripts", required: false)
 </body>
