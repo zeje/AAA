@@ -170,7 +170,7 @@ namespace AAA.Migrations
                 Id = new Guid("00000000-0000-0000-0001-000000000001"),
                 Name = "系统管理",
                 Description = "系统管理",
-                ParentId = null,
+                ParentId = pagePlatform.Id,
                 Sort = 0,
                 PageIconClass = "fa fa-link",
                 PageUrl = "",
