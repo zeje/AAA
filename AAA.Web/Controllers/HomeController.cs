@@ -1,4 +1,4 @@
-﻿using AAA.Web.Web.Utils;
+﻿using AAA.Web.Utils;
 using System.Web.Mvc;
 
 namespace AAA.Web.Controllers

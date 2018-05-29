@@ -6,7 +6,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace AAA.Web.Web.Utils
+namespace AAA.Web.Utils
 {
 
     public static class SiteHelper

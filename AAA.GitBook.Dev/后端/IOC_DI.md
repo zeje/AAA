@@ -1,0 +1,2 @@
+Microsoft.Extensions.DependencyInjection
+Castle.Windsor.MsDependencyInjection

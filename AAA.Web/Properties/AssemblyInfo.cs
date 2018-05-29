@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("3A平台")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("3A集团是一个虚拟的集团，旗下3A平台为其企业信息管理平台")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("3A集团")]
 [assembly: AssemblyProduct("3A平台")]

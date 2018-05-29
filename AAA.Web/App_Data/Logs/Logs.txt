@@ -21,3 +21,76 @@ DEBUG 2018-05-27 17:31:06,869 [1    ] Abp.Localization.LocalizationManager     -
 DEBUG 2018-05-27 17:31:07,124 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
 WARN  2018-05-27 17:31:07,654 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
 WARN  2018-05-27 17:31:07,698 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-05-29 17:10:07,169 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-29 17:10:07,186 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-05-29 17:10:07,195 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AAA.Web.AAAWebModule, AAA.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:10:07,197 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:10:07,197 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:10:07,197 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:10:07,197 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:10:07,197 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AAA.AAADataModule, AAA.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:10:07,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:10:07,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:10:07,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AAA.AAACoreModule, AAA.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:10:07,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AAA.AAAApplicationModule, AAA.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:10:07,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AAA.AAAWebApiModule, AAA.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:10:07,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:10:07,202 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-05-29 17:10:07,683 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: AAA.EntityFramework.AAADbContext, AAA.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:10:11,052 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-05-29 17:10:11,161 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-29 17:10:11,202 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-29 17:10:11,209 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AAA
+DEBUG 2018-05-29 17:10:11,412 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2018-05-29 17:10:11,822 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-05-29 17:10:11,860 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-05-29 17:14:16,124 [23   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2018-05-29 17:14:16,129 [23   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-29 17:14:16,131 [23   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-29 17:14:16,131 [23   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2018-05-29 17:14:28,511 [24   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-29 17:14:28,527 [24   ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-05-29 17:14:28,540 [24   ] Abp.Modules.AbpModuleManager             - Loaded module: AAA.Web.AAAWebModule, AAA.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:14:28,542 [24   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:14:28,542 [24   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:14:28,542 [24   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:14:28,542 [24   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:14:28,542 [24   ] Abp.Modules.AbpModuleManager             - Loaded module: AAA.AAADataModule, AAA.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:14:28,543 [24   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:14:28,543 [24   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:14:28,543 [24   ] Abp.Modules.AbpModuleManager             - Loaded module: AAA.AAACoreModule, AAA.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:14:28,544 [24   ] Abp.Modules.AbpModuleManager             - Loaded module: AAA.AAAApplicationModule, AAA.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:14:28,544 [24   ] Abp.Modules.AbpModuleManager             - Loaded module: AAA.AAAWebApiModule, AAA.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:14:28,545 [24   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:14:28,549 [24   ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-05-29 17:14:28,947 [24   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: AAA.EntityFramework.AAADbContext, AAA.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:14:30,933 [24   ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-05-29 17:14:31,009 [24   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-29 17:14:31,056 [24   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-29 17:14:31,058 [24   ] Abp.Localization.LocalizationManager     - Initialized localization source: AAA
+DEBUG 2018-05-29 17:14:31,249 [24   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-29 17:24:47,107 [21   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2018-05-29 17:24:47,112 [21   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-29 17:24:47,113 [21   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-29 17:24:47,113 [21   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2018-05-29 17:25:00,506 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-29 17:25:00,527 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-05-29 17:25:00,537 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AAA.Web.AAAWebModule, AAA.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:25:00,539 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:25:00,539 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:25:00,539 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:25:00,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:25:00,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AAA.AAADataModule, AAA.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:25:00,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:25:00,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:25:00,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AAA.AAACoreModule, AAA.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:25:00,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AAA.AAAApplicationModule, AAA.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:25:00,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AAA.AAAWebApiModule, AAA.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:25:00,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:25:00,545 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-05-29 17:25:00,970 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: AAA.EntityFramework.AAADbContext, AAA.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-29 17:25:03,107 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-05-29 17:25:03,180 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-29 17:25:03,254 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-29 17:25:03,257 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AAA
+DEBUG 2018-05-29 17:25:03,584 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
