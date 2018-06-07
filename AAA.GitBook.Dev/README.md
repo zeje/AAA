@@ -58,4 +58,17 @@
 
 使用了prism插件后，代码才有高亮，而且语言要书写对，比如：C#应该写成csharp
 
+## 8. 导出Pdf
+
+windows下gitbook转pdf
+
+需要用到的工具:[calibre](https://www.fosshub.com/Calibre.html/calibre-2.77.0.msi),[phantomjs](http://phantomjs.org/download.html)
+
+1将上述2个安装,calibre默认安装的路径C:\Program Files\Calibre2,phantomjs为你解压路径;
+
+2并将其目录均加入到系统变量path中,参考:目录添加到系统变量path中;
+
+3在cmd打开你需要转pdf的文件夹,输入gitbook pdf即可;
+
+
 
